@@ -9,6 +9,16 @@
   text-align: center;
 }
 
+.carousel-caption-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  padding: 0 15px;
+}
+
 .img-responsive {
   display: block;
   height: auto;
@@ -23,6 +33,41 @@
 
 .item {
   position: relative;
+}
+
+.form-inline {
+  padding: 75px 40px;
+}
+
+.form-inline .contact-privacy-area input.contact-checkbox-text {
+  float: left;
+  margin: 6px 6px 12px 0;
+}
+
+.form-inline .contact-privacy-area textarea.contact-privacy-box {
+  height: 100px;
+  min-height: 100px;
+}
+
+.form-group .form-control {
+  font-family: 'Roboto', 'Nanum Gothic';
+  letter-spacing: 0.05m;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0;
+  background-color: #f6f6f6;
+}
+
+.btn-custom {
+  float: right;
+  line-height: 1.5;
+  border: none;
+  border-radius: 0;
+  background-color: #c6aa94;
+  min-width: 160px;
+  padding: 10px 30px;
+  margin-bottom: 80px;
+  white-space: normal;
 }
 
 .info {

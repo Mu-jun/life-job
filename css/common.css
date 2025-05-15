@@ -15839,3 +15839,7 @@ blockquote.fr-quote p {
 @media only screen and (max-width: 767px) {
 }
 /* resource END */
+
+.vh-75 {
+  height: 75vh !important;
+}
