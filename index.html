@@ -14,11 +14,13 @@
 
   <link href="./css/common.css" rel="stylesheet" />
   <link href="./css/styles.css" rel="stylesheet" />
+  <link href="./css/bootstrap-override.css" rel="stylesheet" />
   <link href="./css/load-font.css" rel="stylesheet" />
+
 </head>
 
 <body>
-  <nav class="menu navbar navbar-expand-lg bg-body-white fixed-top">
+  <nav class="menu navbar navbar-expand-sm bg-body-white fixed-top">
     <div class="container-fluid justify-content-between">
       <a class="navbar-brand" href="#">
         <img src="./images/nav_logo.png" alt="로고.png">
@@ -46,9 +48,10 @@
     </div>
   </nav>
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" style="padding-top: 80px;" class="carousel slide carousel-fade"
+    data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" data-bs-interval="3000">
         <img src="./images/slide_item_1.png" class="d-block w-100" alt="슬라이드1">
         <div class="carousel-caption-custom">
           <div style="line-height: 1.15;"><span
@@ -63,7 +66,7 @@
         </div>
       </div>
 
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="3000">
         <img src="./images/slide_item_2.png" class="d-block w-100" alt="슬라이드2">
         <div class="carousel-caption-custom">
           <div style="line-height: 1.15;"><span

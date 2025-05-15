@@ -1,6 +1,5 @@
 .menu {
   background-color: #fff;
-  padding: 20px 0;
   font-family: 'Montserrat', 'Nanum gothic', 'Noto sans', 'Noto sans kr',
     'Nanum gothic';
 }
@@ -17,6 +16,40 @@
   text-align: center;
   transform: translate(-50%, -50%);
   padding: 0 15px;
+}
+.carousel-fade .carousel-item img {
+  height: 870px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-fade,
+  .carousel-fade .carousel-inner,
+  .carousel-fade .carousel-item img {
+    height: 739.5px;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-fade,
+  .carousel-fade .carousel-inner,
+  .carousel-fade .carousel-item img {
+    height: 609px;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-fade,
+  .carousel-fade .carousel-inner,
+  .carousel-fade .carousel-item img {
+    height: 609px;
+    margin-bottom: 80px;
+  }
 }
 
 .img-responsive {
