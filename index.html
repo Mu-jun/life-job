@@ -471,6 +471,14 @@
       </div>
     </div>
   </div> -->
+
+  <script>
+    document.querySelectorAll('.nav-link').forEach(el => {
+      el.addEventListener('click', (e) => {
+        document.querySelector('.navbar-collapse.show').classList.remove('show')
+      })
+    })
+  </script>
 </body>
 
 </html>
