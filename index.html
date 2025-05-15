@@ -12,42 +12,221 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
 
-  <link href="./styles.css" rel="stylesheet" />
+  <link href="./css/common.css" rel="stylesheet" />
+  <link href="./css/styles.css" rel="stylesheet" />
+  <link href="./css/load-font.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div class="header el-menu">
-    <header class="menu-lifejob navbar navbar-fheader navbar-fixed-top navbar-li">
+  <nav class="menu navbar navbar-expand-lg bg-body-white fixed-top">
+    <div class="container-fluid justify-content-between">
+      <a class="navbar-brand" href="#">
+        <img src="./images/nav_logo.png" alt="로고.png">
+      </a>
+
+      <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#bdSidebar"
+        aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="bi" height="24"
+          width="24" aria-hidden="true">
+          <path fill-rule="evenodd"
+            d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+          </path>
+        </svg>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="bdSidebar">
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0 nav-underline">
+          <li class="nav-item"><a class="nav-link" href="#소개">소개</a></li>
+          <li class="nav-item"><a class="nav-link" href="#서비스">서비스</a></li>
+          <li class="nav-item"><a class="nav-link" href="#후기">후기</a></li>
+          <li class="nav-item"><a class="nav-link" href="#강사진">강사진</a></li>
+          <li class="nav-item"><a class="nav-link" href="#문의">문의</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="main container">
+    <div id="소개">
+      <div class="slider"></div>
       <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand mini-home" href="#">
-            <img src="./images/nav_logo.png" alt="로고.png">
-          </a>
-
-          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar"
-            aria-controls="bdSidebar" aria-label="Toggle docs navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="bi" height="24"
-              width="24" aria-hidden="true">
-              <path fill-rule="evenodd"
-                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
-              </path>
-            </svg>
-          </button>
-        </div>
-
-        <div class="" id="bdSidebar">
-          <ul class="nav nav-underline">
-            <li class="nav-item"><a class="nav-link" href="#소개">소개</a></li>
-            <li class="nav-item"><a class="nav-link" href="#서비스">서비스</a></li>
-            <li class="nav-item"><a class="nav-link" href="#후기">후기</a></li>
-            <li class="nav-item"><a class="nav-link" href="#강사진">강사진</a></li>
-            <li class="nav-item"><a class="nav-link" href="#문의">문의</a></li>
-          </ul>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/about_1.png" class="img-responsive" alt="소개1.png">
+            </div>
+          </div>
         </div>
       </div>
-    </header>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/about_2.png" class="img-responsive" alt="소개2.png">
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/about_3.png" class="img-responsive" alt="소개3.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/about_4.png" class="img-responsive" alt="소개4.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/about_5.png" class="img-responsive" alt="소개5.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blank-item"></div>
+
+    <div id="서비스">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/service_1.png" class="img-responsive" alt="서비스1.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 item">
+            <div class="img-wrap">
+              <img src="./images/service_2.png" class="img-responsive" alt="서비스2.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blank-item"></div>
+
+    <div id="후기">
+      <div class="container">
+        <div class="row justify-content-center gap-3">
+          <div class="col-xs-12 col-md-5 col-xxl-3">
+            <img src="images/review_1.png" class="img-responsive" alt="후기1.png">
+          </div>
+          <div class="col-xs-12  col-md-5  col-xxl-3">
+            <img src="images/review_2.png" class="img-responsive" alt="후기2.png">
+          </div>
+          <div class="col-xs-12 col-md-5  col-xxl-3">
+            <img src="images/review_3.png" class="img-responsive" alt="후기3.png">
+          </div>
+          <div class="col-xs-12 col-md-5  col-xxl-3">
+            <img src="images/review_4.png" class="img-responsive" alt="후기4.png">
+          </div>
+          <div class="col-xs-12 col-md-5  col-xxl-3">
+            <img src="images/review_5.png" class="img-responsive" alt="후기5.png">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="blank-item"></div>
+
+    <div id="강사진"></div>
+
+    <div class="blank-item"></div>
+
+    <div id="문의"></div>
+  </div>
+
+  <div class="info element" style="font-family: Montserrat, &quot;Nanum Gothic&quot;;">
+    <div class="container">
+      <div class="row" data-matrix-loop="true" data-matrix-column="3">
+
+        <div class="item col-xs-12 col-sm-4 col-md-4">
+          <div class="line"></div>
+          <div class="cl_caption" data-edit="true" data-selector=".cl_caption">
+            <div><span style="color: rgb(198, 170, 148); font-family: 'Nanum Myeongjo';" class="fsize18"><strong>연락
+                  문의</strong></span></div>
+            <div>
+              <div style="line-height:1;"><span style="font-family: 'Noto Sans KR'; color: rgb(153, 153, 153);"
+                  class="fsize12"><br></span></div>
+              <div><span style="font-family: 'Noto Sans KR'; letter-spacing: 2px; color: rgb(153, 153, 153);"
+                  class="fsize12">휴대폰 번호. &nbsp; 0 1 0 &nbsp; 9 1 4 8 &nbsp;5 2 9 4</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item col-xs-12 col-sm-4 col-md-4">
+          <div class="line"></div>
+          <div class="cl_caption" data-edit="true" data-selector=".cl_caption">
+            <div><span style="color: rgb(198, 170, 148); font-family: 'Nanum Myeongjo';" class="fsize18"><strong>오시는
+                  길</strong></span></div>
+            <div>
+              <div style="line-height:1;"><span style="font-family: 'Noto Sans KR'; color: rgb(153, 153, 153);"
+                  class="fsize12"><br></span></div>
+              <div><span style="font-family: 'Noto Sans KR'; letter-spacing: 2px; color: rgb(153, 153, 153);"
+                  class="fsize12">서울특별시 성동구 아차산로 38, 개풍빌딩 2층</span></div>
+              <div><br></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item col-xs-12 col-sm-4 col-md-4">
+          <div class="line"></div>
+          <div class="cl_caption" data-edit="true" data-selector=".cl_caption">
+            <div><span style="color: rgb(198, 170, 148); font-family: 'Nanum Myeongjo';" class="fsize18"><strong>이메일
+                  문의</strong></span></div>
+            <div>
+              <div style="line-height:1;"><span style="font-family: 'Noto Sans KR'; color: rgb(153, 153, 153);"
+                  class="fsize12"><br></span></div>
+              <div><span style="font-family: 'Noto Sans KR'; letter-spacing: 2px; color: rgb(153, 153, 153);"
+                  class="fsize12">이메일. l i f e j o b @ g m a i l . c o m</span></div>
+              <div><span style="font-family: 'Noto Sans KR'; color: rgb(153, 153, 153); letter-spacing: 2px;"
+                  class="fsize12">문의. l i f e j o b @ g m a i l . c o m</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-xs-12 cl-footer-site-element">
+          <div class="text cl-footer-company-info">
+            <hr class="fr-hr"
+              style="width: 100%; margin-top: 10px; margin-bottom: 10px; border-bottom: 1px solid rgb(72, 72, 72); border-top: none;">
+            <div><br></div>
+            <div><span style="font-family: Montserrat; color: rgb(85, 85, 85);">COPYRIGHT INFORMATION GOES HERE © 2017.
+                ALL RIGHTS RESERVED.</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
 </body>
 
