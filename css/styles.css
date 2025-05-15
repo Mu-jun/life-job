@@ -52,6 +52,10 @@
   }
 }
 
+.flex-none {
+  flex: none;
+}
+
 .img-responsive {
   display: block;
   height: auto;
